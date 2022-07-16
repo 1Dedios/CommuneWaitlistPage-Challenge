@@ -4,15 +4,33 @@
 
 
 h1 {
-	color: purple;
+	color: #391179;
 }
 
-div {
-	display: inline;
+.menu {
+	flex-direction: row;
+	display: flex;
+	justify-content: space-between;
 }
 
 
 .about {
 	color: lightgrey;
 	display: 
+}
+
+button {
+	background-color: #391179;
+	color: white;
+}
+
+.learn {
+	padding: 2px;
+	background-color: #391179;
+	color: #B4A1D2;
+	
+}
+
+.brand {
+	
 }
