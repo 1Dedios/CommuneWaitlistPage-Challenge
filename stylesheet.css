@@ -2,11 +2,12 @@
 	font-family: ;
 }
 
-
+/* Commune name to the left of the page */
 .brand {
 	color: #28144e;
 	display: inline;
 	margin: auto;
+	align-content: flex-start;
 }
 
 
@@ -14,20 +15,27 @@ h1 {
 	color: #28144e;
 }
 
+
+
 .menu {
 	flex-direction: row;
 	display: inline;
 	padding: 10px;
-	justify-content: space-between;
+	justify-content: space-around;
 	align-content: flex-end;
 
 }
 
 
+/* Description about what Commune does */
+
 .about {
 	color: lightgrey;
-	display: 
+	display: inline-block;
+	margin: 5%;
 }
+
+
 
 button {
 	background-color: #28144e;
@@ -36,10 +44,22 @@ button {
 	border-radius: 10px;
 }
 
+/* The learn more link on top of the heading */
 .learn {
 	padding: 10px;
-	margin: 10px;
+	margin: 50px 0px 0px 0px;
 	background-color: #28144e;
 	color: #B4A1D2;
 	border-radius: 30px;
+}
+
+
+.partners {
+	margin-top: 100px;
+}
+
+/* This has not been assigned to an HTML element yet. This is to ensure spacing between the icons.*/
+.icons {
+	justify-content: space-around
+	;
 }
