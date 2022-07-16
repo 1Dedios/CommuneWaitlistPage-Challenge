@@ -3,14 +3,24 @@
 }
 
 
+.brand {
+	color: #28144e;
+	display: inline;
+	margin: auto;
+}
+
+
 h1 {
-	color: #391179;
+	color: #28144e;
 }
 
 .menu {
 	flex-direction: row;
-	display: flex;
+	display: inline;
+	padding: 10px;
 	justify-content: space-between;
+	align-content: flex-end;
+
 }
 
 
@@ -20,17 +30,16 @@ h1 {
 }
 
 button {
-	background-color: #391179;
+	background-color: #28144e;
 	color: white;
+	padding: 20px;
+	border-radius: 10px;
 }
 
 .learn {
-	padding: 2px;
-	background-color: #391179;
+	padding: 10px;
+	margin: 10px;
+	background-color: #28144e;
 	color: #B4A1D2;
-	
-}
-
-.brand {
-
+	border-radius: 30px;
 }
