@@ -1,13 +1,5 @@
 * {
-	font-family: ;
-}
-
-/* Commune name to the left of the page */
-.brand {
-	color: #28144e;
-	display: inline;
-	margin: auto;
-	align-content: flex-start;
+	font-family: url (https://www.pagecloud.com/blog/how-to-add-custom-fonts-to-any-website);
 }
 
 
@@ -17,13 +9,15 @@ h1 {
 
 
 
-.menu {
-	flex-direction: row;
-	display: inline;
-	padding: 10px;
-	justify-content: space-around;
-	align-content: flex-end;
+.logo {
+	margin-top: 40px;
+}
 
+.menu {
+	display: flex;
+	flex-direction: ;
+	justify-content: flex-end;
+	justify-content: space-between;
 }
 
 
