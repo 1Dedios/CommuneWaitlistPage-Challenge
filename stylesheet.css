@@ -29,18 +29,37 @@ span {
 	vertical-align: middle;
 }
 
-.illustration {
-	display: flex;
-	flex-direction: row-reverse;
+.middle {
+	float: left;
+	display: block;
+}
+
+.picture {
+	float: right;
+}
+
+.middle .picture {
+	vertical-align: middle;
+}
+
+a {
+	color: #B4A1D2;
 }
 
 
+/* The learn more link on top of the heading */
+.learn {
+	padding: 10px;
+	margin: 50px 0px 0px 0px;
+	background-color: #28144e;
+	color: #B4A1D2;
+	border-radius: 30px;
+}
 /* Description about what Commune does */
 
 .about {
 	color: lightgrey;
 	display: inline-block;
-	margin: 5%;
 }
 
 
@@ -52,14 +71,7 @@ button {
 	border-radius: 10px;
 }
 
-/* The learn more link on top of the heading */
-.learn {
-	padding: 10px;
-	margin: 50px 0px 0px 0px;
-	background-color: #28144e;
-	color: #B4A1D2;
-	border-radius: 30px;
-}
+
 
 
 .partners {
