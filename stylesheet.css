@@ -9,18 +9,29 @@ h1 {
 
 
 .logo {
-	
+	margin-right: 500px;
 
 }
 
+
+span {
+	margin-top: 0px;
+	padding-top: 0px;
+	
+}
 
 .menu {
-	
-	
+	padding-right: 10px;
 }
+
 
 .logo, .menu {
 	vertical-align: middle;
+}
+
+.illustration {
+	display: flex;
+	flex-direction: row-reverse;
 }
 
 
