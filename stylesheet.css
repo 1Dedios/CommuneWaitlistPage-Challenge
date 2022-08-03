@@ -5,6 +5,7 @@
 
 h1 {
 	color: #28144e;
+	margin-bottom: 0px;
 }
 
 
@@ -31,19 +32,29 @@ span {
 
 .middle {
 	float: left;
-	display: block;
+	
 }
 
 .picture {
 	float: right;
+	
 }
 
 .middle .picture {
-	vertical-align: middle;
+
 }
 
 a {
 	color: #B4A1D2;
+}
+
+.email {
+	display: block;
+	margin-right: 10px;
+}
+
+.join {
+	display: inline;
 }
 
 
