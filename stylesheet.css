@@ -1,22 +1,23 @@
 * {
 	font-family: 'Nunito Sans', sans-serif;
+	border-style: solid white 20px;
 }
 
 html {
-	border: solid white 20px;
+	border-style: solid white 20px;
+	display: flex;
+	justify-content: space-around
 }
 
 
 body {
-	border-style: 20px solid white;
 	background-color: #F1F6FA;
 	border-top-right-inner-radius: 10px;
-	
+	border-style: solid white 20px;
 }
 
 #nav {
-	display: flex;
-	justify-content: space-between;
+	;
 	
 }
 
@@ -26,9 +27,12 @@ body {
 #links {
 	color: gray;
 	list-style: none;
-	display: flex;
+	display: inline-flex;
 	justify-content: flex-end;
-	margin-top: 10px;
+	justify-content: space-evenly;
+	align-items: center;
+	margin-top: auto;
+	padding-;
 	
 }
 
@@ -40,6 +44,9 @@ body {
 
 .middle {
 	margin-top: 10px;
+	display: inline-block;
+	/*the above centered everything in the middle*/
+	justify-itemslmmmll;
 }
 
 /*That's what gives the input box the 3d look*/
@@ -83,7 +90,6 @@ a {
 
 ::placeholder {
 	color: lightgrey;
-	padding-left: 20px;
 }
 
 
