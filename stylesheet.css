@@ -1,42 +1,56 @@
 * {
-	font-family: url (https://www.pagecloud.com/blog/how-to-add-custom-fonts-to-any-website);
-}
-
-
-h1 {
-	color: #28144e;
-	margin-bottom: 0px;
-}
-
-
-.logo {
-	margin-right: 480px;
-
-}
-
-
-span {
-	margin-top: 0px;
-	padding-top: 0px;
+	font-family: 'Nunito Sans', sans-serif;
+	border-color: white;
+	
 	
 }
 
-.menu {
-	padding-left: 10px;
-	color: grey;
+body {
+	border-style: solid white;
+	background-color: #F3F7FA;
+	
 }
 
-.logo, .menu {
+#nav {
+	display: flex;
+	justify-content: space-around;
+	
+}
+
+.logo {
+}
+
+#links {
+	color: gray;
+	list-style: none;
+	display: flex;
+	justify-content: flex-end;
+	margin-top: 10px;
+	
+}
+
+#links .menu-button {
 	vertical-align: middle;
 }
+
+
 
 .middle {
 	margin-top: 10px;
 }
 
+/*That's what gives the input box the 3d look*/
+.email {
+	border-color: white;
+	border-width: 5px;
+}
+
+
 .picture {
 	float: right;
-	align-content: middle;	
+	display: flex;
+	margin-top: auto;
+	margin-bottom: auto;
 }
 
 .middle .picture {
@@ -44,8 +58,16 @@ span {
 	vertical-align: middle;
 }
 
+h1 {
+	color: #28144e;
+	margin-bottom: 0px;
+	font-weight: bolder;
+}
+
+
 a {
 	color: #B4A1D2;
+	
 }
 
 .email {
