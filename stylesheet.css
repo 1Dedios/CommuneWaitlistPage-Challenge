@@ -1,19 +1,22 @@
 * {
 	font-family: 'Nunito Sans', sans-serif;
-	border-color: white;
-	
-	
 }
 
+html {
+	border: solid white 20px;
+}
+
+
 body {
-	border-style: solid white;
-	background-color: #F3F7FA;
+	border-style: 20px solid white;
+	background-color: #F1F6FA;
+	border-top-right-inner-radius: 10px;
 	
 }
 
 #nav {
 	display: flex;
-	justify-content: space-around;
+	justify-content: space-between;
 	
 }
 
