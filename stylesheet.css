@@ -17,11 +17,14 @@ body {
 }
 
 #nav {
-	;
+	display: flex;
+	justify-content: space-between;
+	
 	
 }
 
 .logo {
+	padding: 15px;
 }
 
 #links {
@@ -32,22 +35,37 @@ body {
 	justify-content: space-evenly;
 	align-items: center;
 	margin-top: auto;
-	padding-;
+	vertical-align: middle;
 	
 }
 
 #links .menu-button {
 	vertical-align: middle;
+	font-weight: bold;
 }
 
+li {
+	padding-left: 20px;
+	
+}
 
+a b {
+	color: #F1F6FA;
+	font-weight: bolder;
+}
 
 .middle {
 	margin-top: 10px;
 	display: inline-block;
 	/*the above centered everything in the middle*/
-	justify-itemslmmmll;
+	
 }
+
+.about {
+	font-size: 14px;
+}
+
+
 
 /*That's what gives the input box the 3d look*/
 .email {
@@ -59,19 +77,19 @@ body {
 .picture {
 	float: right;
 	display: flex;
-	margin-top: auto;
+	margin-top: 40px;
 	margin-bottom: auto;
+	
 }
 
-.middle .picture {
-	display: inline-block;
-	vertical-align: middle;
-}
+
 
 h1 {
 	color: #28144e;
 	margin-bottom: 0px;
 	font-weight: bolder;
+	font-size: 34pt;
+	
 }
 
 
@@ -84,6 +102,7 @@ a {
 	margin-right: 10px;
 	width: 25%;
 	padding: 20px;
+	font-weight: bold;
 	
 }
 
@@ -96,6 +115,7 @@ a {
 .join {
 	vertical-align: middle;
 	text-align: center;
+	font-weight: bold;
 }
 
 
@@ -118,14 +138,18 @@ button {
 	color: white;
 	padding: 20px;
 	border-radius: 10px;
+	
 }
 
 
 .partners {
+	padding: 70px;
+	padding-left: 0px;
+	padding-bottom: 0px;
 	
 }
 
-/* This has not been assigned to an HTML element yet. This is to ensure spacing between the icons.*/
-.icons {
 
+.icons {
+	padding-right: 10px;
 }
