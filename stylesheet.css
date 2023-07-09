@@ -1,156 +1,123 @@
 * {
-	font-family: 'Nunito Sans', sans-serif;
-	filter: brightness(100%);
-
-}
-
-html {
-	border: solid white 20px;
-}
-
-
-body {
-	background-color: #E9ECF8;
+  font-family: "Nunito Sans", sans-serif;
+  filter: brightness(100%);
+  background-color: #e9ecf8;
 }
 
 nav {
-	display: flex;
-	flex-direction: row;
-	justify-content: space-between;
-
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
-
 .logo {
-	display: inline;
-	justify-content: flex-start;
+  display: inline;
+  justify-content: flex-start;
 }
 
 #links {
-	color: gray;
-	list-style: none;
-	display: flex;
-	justify-content: flex-end;
-
-
+  color: gray;
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
 }
 
 li {
-	display: inline-block;
-	vertical-align: middle;
+  display: inline-block;
+  vertical-align: middle;
 }
 
 #links .menu-button {
-	vertical-align: middle;
-	font-weight: bold;
+  vertical-align: middle;
+  font-weight: bold;
 }
 
 li {
-	padding-left: 20px;
-
+  padding-left: 20px;
 }
 
 a b {
-	color: #F1F6FA;
-	font-weight: bolder;
+  color: #f1f6fa;
+  font-weight: bolder;
 }
 
 .middle {
-	margin-top: 10px;
-	display: inline-block;
-
+  margin-top: 10px;
+  display: inline-block;
 }
 
 .about {
-	font-size: 14px;
+  font-size: 14px;
 }
-
-
 
 /*That's what gives the input box the 3d look*/
 .email {
-	border-color: white;
-	border-width: 5px;
+  border-color: white;
+  border-width: 5px;
 }
-
 
 .picture {
-	display: inline-block;
-	padding-left: 100px;
-	padding-top: 10px;
-
-
+  display: inline-block;
+  padding-left: 100px;
+  padding-top: 10px;
 }
-
-
 
 h1 {
-	color: #28144e;
-	margin-bottom: 0px;
-	font-weight: bolder;
-	font-size: 34pt;
-
+  color: #28144e;
+  margin-bottom: 0px;
+  font-weight: bolder;
+  font-size: 34pt;
 }
 
-
 a {
-	color: #B4A1D2;
-
+  color: #b4a1d2;
 }
 
 .email {
-	margin-right: 10px;
-	width: 43%;
-	padding: 20px;
-	font-weight: bold;
-
+  margin-right: 10px;
+  width: 43%;
+  padding: 20px;
+  font-weight: bold;
 }
-
 
 ::placeholder {
-	color: lightgrey;
+  color: lightgrey;
 }
-
 
 .join {
-	vertical-align: middle;
-	text-align: center;
-	font-weight: bold;
+  vertical-align: middle;
+  text-align: center;
+  font-weight: bold;
 }
-
 
 /* The learn more link on top of the heading */
 .learn {
-	padding: 10px;
-	margin: 50px 0px 0px 0px;
-	background-color: #28144e;
-	color: #B4A1D2;
-	border-radius: 30px;
+  padding: 10px;
+  margin: 50px 0px 0px 0px;
+  background-color: #28144e;
+  color: #b4a1d2;
+  border-radius: 30px;
 }
 
 /* Description about what Commune does */
 
 .about {
-	color: grey;
+  color: grey;
 }
 
 button {
-	background-color: #28144e;
-	color: white;
-	padding: 20px;
-	border-radius: 10px;
-
+  background-color: #28144e;
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
 }
-
 
 .partners {
-	padding: 80px;
-	padding-left: 0px;
-	padding-bottom: 0px;
-
+  padding: 80px;
+  padding-left: 0px;
+  padding-bottom: 0px;
 }
 
-
 .icons {
-	padding-right: 10px;
+  padding-right: 10px;
 }
