@@ -64,6 +64,10 @@ a {
   font-weight: bold;
 }
 
+input {
+  background-color: white;
+}
+
 ::placeholder {
   color: lightgrey;
 }
