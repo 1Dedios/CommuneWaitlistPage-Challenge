@@ -59,14 +59,13 @@ a b {
 }
 
 .picture {
-  /* padding-left: 20px; */
   padding-top: 10px;
 }
 
 h1 {
   color: #28144e;
   margin-bottom: 0px;
-  font-weight: bolder;
+  font-weight: 800px;
   font-size: 34pt;
 }
 
@@ -105,8 +104,6 @@ input {
   color: #b4a1d2;
   border-radius: 30px;
 }
-
-/* Description about what Commune does */
 
 .about {
   color: grey;
