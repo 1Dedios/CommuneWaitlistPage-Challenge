@@ -35,9 +35,6 @@ li {
   margin-left: 20px;
 }
 
-li {
-  /* padding-left: 20px; */
-}
 
 a b {
   color: #f1f6fa;
@@ -47,17 +44,19 @@ a b {
 .hero {
   display: flex;
   flex-direction: row;
+  justify-content: space-around;
 }
 
 .hero-info {
-  margin: auto;
+	padding-right: 4px;
 }
-.about {
+
+.about {e
   font-size: 14px;
 }
 
 .picture {
-  padding-left: 60px;
+  /* padding-left: 20px; */
   padding-top: 10px;
 }
 
