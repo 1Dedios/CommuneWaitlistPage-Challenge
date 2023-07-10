@@ -8,12 +8,10 @@ nav {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  margin-top: auto;
 }
 
-#links li {
+ul {
   color: gray;
-  list-style: none;
   display: flex;
   flex-direction: row;
   justify-content: end;
@@ -21,6 +19,20 @@ nav {
   font-weight: bold;
   list-style: none;
   text-decoration-style: none;
+  padding-left: 5px;
+  margin: auto;
+}
+
+li {
+  padding-left: 20px;
+  padding-bottom: 8px;
+}
+
+.nav-button {
+  background-color: #28144e;
+  color: white;
+  border-radius: 10px;
+  margin-left: 20px;
 }
 
 li {
@@ -33,18 +45,19 @@ a b {
 }
 
 .hero {
-  /* margin-top: 10px; */
-  margin: auto;
   display: flex;
   flex-direction: row;
 }
 
+.hero-info {
+  margin: auto;
+}
 .about {
   font-size: 14px;
 }
 
 .picture {
-  padding-left: 40px;
+  padding-left: 60px;
   padding-top: 10px;
 }
 
@@ -94,12 +107,6 @@ input {
 
 .about {
   color: grey;
-}
-
-.nav-button {
-  background-color: #28144e;
-  color: white;
-  border-radius: 10px;
 }
 
 button {
