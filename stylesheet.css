@@ -1,6 +1,9 @@
 * {
   font-family: "Nunito Sans", sans-serif;
   filter: brightness(100%);
+}
+
+body {
   background-color: #e9ecf8;
 }
 
@@ -35,7 +38,6 @@ li {
   margin-left: 20px;
 }
 
-
 a b {
   color: #f1f6fa;
   font-weight: bolder;
@@ -45,13 +47,14 @@ a b {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  padding-top: 60px;
 }
 
 .hero-info {
-	padding-right: 4px;
+  padding-right: 4px;
 }
 
-.about {e
+.about {
   font-size: 14px;
 }
 
@@ -69,6 +72,7 @@ h1 {
 
 a {
   color: #b4a1d2;
+  text-decoration: none;
 }
 
 .email {
